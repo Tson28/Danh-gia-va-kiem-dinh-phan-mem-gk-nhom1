@@ -2,7 +2,13 @@ import Link from "next/link";
 import { BookingForm } from "@/components/public/BookingForm";
 import { SiteFooter } from "@/components/public/SiteFooter";
 import { SiteHeader } from "@/components/public/SiteHeader";
-import { doctors, facilities, news, specialties } from "@/lib/siteData";
+import {
+  doctors,
+  facilities,
+  news,
+  services,
+  specialties,
+} from "@/lib/siteData";
 
 export default function HomePage() {
   return (
@@ -14,8 +20,8 @@ export default function HomePage() {
             <p className="kicker">HE THONG Y TE RANG HAM MAT VINAMEC</p>
             <h1>Dat lich nha khoa online, cham soc toan dien cho gia dinh</h1>
             <p>
-              Giao dien va trai nghiem theo phong cach benh vien hien dai: ro rang,
-              chuyen nghiep, toi uu cho benh nhan.
+              Giao dien va trai nghiem theo phong cach benh vien hien dai: ro
+              rang, chuyen nghiep, toi uu cho benh nhan.
             </p>
             <div className="cta-row">
               <Link href="/dat-lich" className="btn btn-primary">
@@ -45,6 +51,20 @@ export default function HomePage() {
               <p>{item.desc}</p>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <h2>Dich vu nha khoa</h2>
+          <div className="cards">
+            {services.slice(0, 4).map((service) => (
+              <article key={service.name} className="card">
+                <h3>{service.name}</h3>
+                <p>{service.desc}</p>
+              </article>
+            ))}
+          </div>
         </div>
       </section>
 

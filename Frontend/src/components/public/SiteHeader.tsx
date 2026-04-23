@@ -2,11 +2,12 @@ import Link from "next/link";
 
 const navItems = [
   { label: "Chuyen khoa", href: "/chuyen-khoa" },
+  { label: "Dich vu", href: "/dich-vu" },
   { label: "Bac si", href: "/bac-si" },
   { label: "Co so vat chat", href: "/co-so" },
   { label: "Tin tuc", href: "/tin-tuc" },
   { label: "Huong dan", href: "/huong-dan" },
-  { label: "Lien he", href: "/lien-he" }
+  { label: "Lien he", href: "/lien-he" },
 ];
 
 export function SiteHeader() {
