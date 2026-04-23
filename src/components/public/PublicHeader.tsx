@@ -7,9 +7,10 @@ import logoVinamec from "../../../assest/logovinamec.jpg";
 
 const navLinks = [
   { label: "Chuyên khoa", href: "#chuyen-khoa" },
+  { label: "Dịch vụ", href: "#dich-vu" },
   { label: "Bác sĩ", href: "#bac-si" },
   { label: "Cơ sở vật chất", href: "#co-so-vat-chat" },
-  { label: "Đặt lịch", href: "/dat-lich" }
+  { label: "Đặt lịch", href: "/dat-lich" },
 ];
 
 export function PublicHeader() {
@@ -65,7 +66,11 @@ export function PublicHeader() {
         >
           <div className="public-container mobile-menu-inner">
             {navLinks.map((link) => (
-              <Link key={`mobile-${link.label}`} href={link.href} onClick={closeMenu}>
+              <Link
+                key={`mobile-${link.label}`}
+                href={link.href}
+                onClick={closeMenu}
+              >
                 {link.label}
               </Link>
             ))}

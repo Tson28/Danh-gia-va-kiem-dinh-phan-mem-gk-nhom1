@@ -75,28 +75,56 @@ export default function HomePage() {
         <div className="public-container service-shortcuts-grid">
           <Reveal delay={70}>
             <article>
-            <h3>Đặt khám theo bác sĩ</h3>
-            <p>Chọn bác sĩ phù hợp và khung giờ linh hoạt cho bạn.</p>
+              <h3>Đặt khám theo bác sĩ</h3>
+              <p>Chọn bác sĩ phù hợp và khung giờ linh hoạt cho bạn.</p>
             </article>
           </Reveal>
           <Reveal delay={150}>
             <article>
-            <h3>Đặt khám theo gói</h3>
-            <p>Gói khám tổng quát, niềng răng, implant, thẩm mỹ răng.</p>
+              <h3>Đặt khám theo gói</h3>
+              <p>Gói khám tổng quát, niềng răng, implant, thẩm mỹ răng.</p>
             </article>
           </Reveal>
           <Reveal delay={230}>
             <article>
-            <h3>Tra cứu kết quả</h3>
-            <p>Đồng bộ kết quả khám, đơn thuốc và lịch hẹn tái khám.</p>
+              <h3>Tra cứu kết quả</h3>
+              <p>Đồng bộ kết quả khám, đơn thuốc và lịch hẹn tái khám.</p>
             </article>
           </Reveal>
           <Reveal delay={310}>
             <article>
-            <h3>Tư vấn từ xa</h3>
-            <p>Kết nối điều dưỡng và bác sĩ qua hotline chuyên khoa.</p>
+              <h3>Tư vấn từ xa</h3>
+              <p>Kết nối điều dưỡng và bác sĩ qua hotline chuyên khoa.</p>
             </article>
           </Reveal>
+        </div>
+      </section>
+
+      <section id="dich-vu" className="public-section">
+        <div className="public-container">
+          <h2>Dịch vụ nổi bật</h2>
+          <div className="info-grid">
+            <article>
+              <h3>Kế hoạch chăm sóc nha khoa</h3>
+              <p>
+                Khám kiểm tra tổng quát, lấy cao răng và điều trị phòng ngừa.
+              </p>
+            </article>
+            <article>
+              <h3>Niềng răng chỉnh nha</h3>
+              <p>
+                Giải pháp niềng răng mắc cài và niềng trong suốt cho mọi lứa
+                tuổi.
+              </p>
+            </article>
+            <article>
+              <h3>Implant và phục hình</h3>
+              <p>
+                Cấy ghép implant chính xác, tái tạo răng mất với công nghệ hiện
+                đại.
+              </p>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -106,15 +134,23 @@ export default function HomePage() {
           <div className="info-grid">
             <article>
               <h3>Nha khoa tổng quát</h3>
-              <p>Kiểm tra định kỳ, lấy cao răng, trám trượt và phòng ngừa sâu răng.</p>
+              <p>
+                Kiểm tra định kỳ, lấy cao răng, trám trượt và phòng ngừa sâu
+                răng.
+              </p>
             </article>
             <article>
               <h3>Chỉnh nha - niềng răng</h3>
-              <p>Tư vấn phác đồ niềng trong suốt và niềng mắc cài cho mọi độ tuổi.</p>
+              <p>
+                Tư vấn phác đồ niềng trong suốt và niềng mắc cài cho mọi độ
+                tuổi.
+              </p>
             </article>
             <article>
               <h3>Implant răng</h3>
-              <p>Phục hình răng mất bằng công nghệ implant chính xác và an toàn.</p>
+              <p>
+                Phục hình răng mất bằng công nghệ implant chính xác và an toàn.
+              </p>
             </article>
           </div>
         </div>
@@ -145,17 +181,23 @@ export default function HomePage() {
           <div className="package-grid">
             <article>
               <h3>Gói Khám Tổng Quát Premium</h3>
-              <p>Khám, chụp phim, vệ sinh răng miệng và tư vấn phác đồ chi tiết.</p>
+              <p>
+                Khám, chụp phim, vệ sinh răng miệng và tư vấn phác đồ chi tiết.
+              </p>
               <strong>Từ 1.200.000 VND</strong>
             </article>
             <article>
               <h3>Gói Chỉnh Nha Chuyên Sâu</h3>
-              <p>Đánh giá khớp cắn, lập kế hoạch niềng răng và theo dõi định kỳ.</p>
+              <p>
+                Đánh giá khớp cắn, lập kế hoạch niềng răng và theo dõi định kỳ.
+              </p>
               <strong>Từ 15.000.000 VND</strong>
             </article>
             <article>
               <h3>Gói Implant Trọn Gói</h3>
-              <p>Dành cho bệnh nhân mất răng, bao gồm phẫu thuật và phục hình.</p>
+              <p>
+                Dành cho bệnh nhân mất răng, bao gồm phẫu thuật và phục hình.
+              </p>
               <strong>Từ 19.000.000 VND</strong>
             </article>
           </div>
@@ -227,8 +269,8 @@ export default function HomePage() {
             <Reveal delay={80}>
               <article>
                 <p>
-                  "Bác sĩ tư vấn rất rõ ràng, quy trình nhanh, mình không phải đợi
-                  lâu."
+                  "Bác sĩ tư vấn rất rõ ràng, quy trình nhanh, mình không phải
+                  đợi lâu."
                 </p>
                 <strong>Chị Thu Hà - Hai Bà Trưng</strong>
               </article>
@@ -236,7 +278,8 @@ export default function HomePage() {
             <Reveal delay={160}>
               <article>
                 <p>
-                  "Đặt lịch online tiện, đến nơi có nhân viên hướng dẫn xuyên suốt."
+                  "Đặt lịch online tiện, đến nơi có nhân viên hướng dẫn xuyên
+                  suốt."
                 </p>
                 <strong>Anh Đức Anh - Cầu Giấy</strong>
               </article>
@@ -244,7 +287,8 @@ export default function HomePage() {
             <Reveal delay={240}>
               <article>
                 <p>
-                  "Làm implant êm, không gian sạch, chăm sóc sau điều trị rất tốt."
+                  "Làm implant êm, không gian sạch, chăm sóc sau điều trị rất
+                  tốt."
                 </p>
                 <strong>Cô Mai Lan - Long Biên</strong>
               </article>
@@ -348,7 +392,10 @@ export default function HomePage() {
             <Reveal delay={90}>
               <details open>
                 <summary>Cần đặt lịch trước khi đến khám không?</summary>
-                <p>Nên đặt lịch trước để được ưu tiên khung giờ và bác sĩ phù hợp.</p>
+                <p>
+                  Nên đặt lịch trước để được ưu tiên khung giờ và bác sĩ phù
+                  hợp.
+                </p>
               </details>
             </Reveal>
             <Reveal delay={170}>
@@ -371,7 +418,9 @@ export default function HomePage() {
         <div className="public-container cta-banner-inner">
           <div>
             <h2>Sẵn sàng đặt lịch khám răng ngay hôm nay?</h2>
-            <p>Tư vấn nhanh, minh bạch chi phí, đội ngũ bác sĩ chuyên môn cao.</p>
+            <p>
+              Tư vấn nhanh, minh bạch chi phí, đội ngũ bác sĩ chuyên môn cao.
+            </p>
           </div>
           <Link href="/dat-lich" className="public-cta pulse-cta">
             Đặt lịch ngay
